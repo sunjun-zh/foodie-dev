@@ -4,208 +4,24 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eab35d7-f7a2-4546-a680-1ca69668a4de" name="Default Changelist" comment="商品详情">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/tianma/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/tianma/controller/ItemsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/tianma/controller/ShopcartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/tianma/enums/CommentLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/tianma/utils/DesensitizationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/tianma/utils/PagedGridResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/ItemsMapperCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/tianma/pojo/bo/ShopcartBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/tianma/pojo/vo/CommentLevelCountsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/tianma/pojo/vo/ItemCommentVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/tianma/pojo/vo/ItemInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/tianma/pojo/vo/SearchItemsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/tianma/pojo/vo/ShopcarVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/tianma/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/tianma/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="1eab35d7-f7a2-4546-a680-1ca69668a4de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/tianma/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/tianma/controller/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/MobileEmailUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/tianma/pojo/bo/AddressBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/tianma/pojo/bo/SubmitOrderBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/tianma/pojo/vo/MerchantOrdersVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/tianma/pojo/vo/OrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/tianma/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/tianma/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/tianma/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/tianma/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/tianma/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/tianma/aspect/ServiceLogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/tianma/config/CorsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/tianma/config/Swagger2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/tianma/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/tianma/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/tianma/controller/PassportController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/tianma/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/tianma/aspect/ServiceLogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/tianma/config/CorsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/tianma/config/Swagger2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/tianma/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/tianma/controller/IndexController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/com/tianma/controller/PassportController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/HikariCP-3.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.9.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/commons-io-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/foodie-dev-common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/foodie-dev-mapper-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/foodie-dev-pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/foodie-dev-service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/guava-20.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.16.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-base-1.1.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-core-1.1.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-extra-1.1.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-spring-1.1.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-spring-boot-autoconfigure-2.1.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-spring-boot-starter-2.1.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapper-weekend-1.1.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mapstruct-1.2.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-autoconfigure-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-starter-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/persistence-api-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-2.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-2.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-2.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-core-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-schema-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-spi-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-spring-web-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger-common-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger-ui-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/springfox-swagger2-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/swagger-annotations-1.5.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/swagger-bootstrap-ui-1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/swagger-models-1.5.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-9.0.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-9.0.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-9.0.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-common/target/foodie-dev-common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/ItemsCommentsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/ItemsCommentsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/ItemsImgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/ItemsImgMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/ItemsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/ItemsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/ItemsParamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/ItemsParamMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/ItemsSpecMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/ItemsSpecMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/CarouselMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/CategoryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/CategoryMapperCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/ItemsCommentsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/ItemsImgMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/ItemsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/ItemsParamMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/ItemsSpecMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/OrderItemsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/OrderStatusMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/OrdersMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/UserAddressMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/mapper/UsersMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/tianma/my/mapper/MyMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/CarouselMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/CategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/CategoryMapperCustom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsCommentsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsImgMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsParamMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsSpecMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/OrderItemsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/OrderStatusMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/OrdersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/UserAddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/UsersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/foodie-dev-mapper-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/Carousel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/Items.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/ItemsComments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/ItemsImg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/ItemsParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/ItemsSpec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/OrderItems.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/OrderStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/Orders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/UserAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/bo/UserBO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/vo/CategoryVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/vo/NewItemsVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/vo/SimpleItemVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/tianma/pojo/vo/SubCategoryVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/foodie-dev-pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/tianma/service/CarouselService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/tianma/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/tianma/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/tianma/service/impl/CarouselServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/tianma/service/impl/CategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/tianma/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/foodie-dev-service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/Sid.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/Sid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/OrderItemsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/OrderItemsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/OrderStatusMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/OrderStatusMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/OrdersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/OrdersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/UserAddressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/tianma/mapper/UserAddressMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,8 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Aspect" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -747,7 +563,7 @@
       <recent name="com.tianma.mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesensitizationUtil">
+  <component name="RunManager" selected="Application.Sid">
     <configuration name="DesensitizationUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tianma.utils.DesensitizationUtil" />
       <module name="foodie-dev-common" />
@@ -787,15 +603,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -817,17 +631,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DesensitizationUtil" />
       <item itemvalue="Application.MD5Utils" />
       <item itemvalue="Application.Sid" />
-      <item itemvalue="Application.DesensitizationUtil" />
       <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DesensitizationUtil" />
+        <item itemvalue="Application.Sid" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.MD5Utils" />
-        <item itemvalue="Application.Sid" />
+        <item itemvalue="Application.DesensitizationUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -857,7 +671,7 @@
       <workItem from="1625468590367" duration="8723000" />
       <workItem from="1625550338008" duration="6628000" />
       <workItem from="1625623930177" duration="2187000" />
-      <workItem from="1625628257302" duration="7870000" />
+      <workItem from="1625628257302" duration="15992000" />
     </task>
     <task id="LOCAL-00001" summary="商品详情">
       <created>1625628411867</created>
@@ -866,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625628411867</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="购物车">
+      <created>1625642201158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625642201158</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -927,7 +748,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="商品详情" />
-    <option name="LAST_COMMIT_MESSAGE" value="商品详情" />
+    <MESSAGE value="购物车" />
+    <option name="LAST_COMMIT_MESSAGE" value="购物车" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
