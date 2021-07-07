@@ -1,7 +1,0 @@
-com/tianma/Application.class
-com/tianma/controller/PassportController.class
-com/tianma/controller/HelloController.class
-com/tianma/aspect/ServiceLogAspect.class
-com/tianma/controller/IndexController.class
-com/tianma/config/Swagger2.class
-com/tianma/config/CorsConfig.class

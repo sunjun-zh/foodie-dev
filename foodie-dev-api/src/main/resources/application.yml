@@ -14,6 +14,13 @@ server:
 #
 # 配置数据源信息
 #
+# 本地配置
+# driver-class-name: com.mysql.cj.jdbc.Driver          # mysql驱动 8.0
+# url: jdbc:mysql://localhost:3306/foodie-shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+
+# 远程配置
+# driver-class-name: com.mysql.jdbc.Driver
+# url: jdbc:mysql://8.140.162.68:3306/foodie-shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
 ############################################################
 spring:
   profiles:
@@ -21,7 +28,7 @@ spring:
   datasource:                                           # 数据源的相关配置
     type: com.zaxxer.hikari.HikariDataSource          # 数据源类型：HikariCP
     driver-class-name: com.mysql.cj.jdbc.Driver          # mysql驱动
-    url: jdbc:mysql://localhost:3306/foodie-shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    url: jdbc:mysql://8.140.162.68:3306/foodie-shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     username: root
     password: abc123456
     hikari:
@@ -60,3 +67,8 @@ mapper:
   mappers: com.tianma.my.mapper.MyMapper
   not-empty: false    # 在进行数据库操作的的时候，判断表达式 username != null, 是否追加 username != ''
   identity: MYSQL
+
+# 分页插件配置
+pagehelper:
+  helperDialect: mysql
+  supperMethodsArguments: true

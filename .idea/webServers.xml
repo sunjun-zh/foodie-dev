@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="215d770d-93f0-4e38-8f4e-4037c5124e6f" name="foodie-dev">
+        <fileTransfer accessType="SFTP" host="8.140.162.68" port="22" sshConfigId="1cde0780-af9e-4113-a88c-129c1f8b033c" sshConfig="root@8.140.162.68:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
