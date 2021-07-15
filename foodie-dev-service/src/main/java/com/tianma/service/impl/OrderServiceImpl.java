@@ -13,13 +13,11 @@ import com.tianma.service.AddressService;
 import com.tianma.service.ItemService;
 import com.tianma.service.OrderService;
 import com.tianma.utils.DateUtil;
-import org.aspectj.weaver.ast.Or;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-import tk.mybatis.mapper.annotation.Order;
 
 import java.util.Date;
 import java.util.List;
